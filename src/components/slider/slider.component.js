@@ -375,8 +375,8 @@ class DonorSlider extends Component {
               key={donor['Name']}
               imageSrc={getImage(donor['Name'])}
               name={donor['Name']}
-              directDonation={donor['Donations directly to Buffy']}
-              pacDonation={donor['Donations to Buffy-supporting PACs']}
+              directDonation={donor['Donations directly to David']}
+              pacDonation={donor['Donations to David-supporting PACs']}
               title={donor['Description hed']}
               description={donor['Blurb']}
               categories={donor['Category']}
