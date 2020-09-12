@@ -1,4 +1,4 @@
-# bw.money
+# ryu.money
 
 ## Quick Start
 

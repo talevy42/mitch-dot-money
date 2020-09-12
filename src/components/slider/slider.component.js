@@ -52,17 +52,17 @@ class Slide extends Component {
     } = this.props
     const categoriesArr = splitCategories(categories).sort()
     return (
-      <div className={classNames('bw-slide', kebabCase(name))}>
+      <div className={classNames('ryu-slide', kebabCase(name))}>
         {imageSrc && (
           <div
-            className="bw-slide__image"
+            className="ryu-slide__image"
             style={{ backgroundImage: `url('${imageSrc}')` }}
           />
         )}
         {isVisible && (
           <div
-            className={classNames('bw-slide__content', {
-              'bw-slide__content--no-image': !imageSrc
+            className={classNames('ryu-slide__content', {
+              'ryu-slide__content--no-image': !imageSrc
             })}
           >
             <Measure
@@ -72,21 +72,21 @@ class Slide extends Component {
               }}
             >
               {({ measureRef }) => (
-                <div ref={measureRef} className="bw-slide__name">
+                <div ref={measureRef} className="ryu-slide__name">
                   <h3>{name}</h3>
-                  <div className="bw-slide__donations">
+                  <div className="ryu-slide__donations">
                     {directDonation && (
-                      <div className="bw-slide__donation">
+                      <div className="ryu-slide__donation">
                         Direct:{' '}
-                        <span className="bw-slide__donation-value">
+                        <span className="ryu-slide__donation-value">
                           {directDonation}
                         </span>
                       </div>
                     )}
                     {pacDonation && (
-                      <div className="bw-slide__donation">
+                      <div className="ryu-slide__donation">
                         PAC:{' '}
-                        <span className="bw-slide__donation-value">
+                        <span className="ryu-slide__donation-value">
                           {pacDonation}
                         </span>
                       </div>
@@ -96,7 +96,7 @@ class Slide extends Component {
               )}
             </Measure>
             <div
-              className="bw-slide__scrollable"
+              className="ryu-slide__scrollable"
               style={{
                 height: `calc(100% - ${this.state.nameDimensions.height}px)`
               }}
@@ -107,9 +107,9 @@ class Slide extends Component {
                 source={description}
               />
               {categoriesArr.length > 0 && (
-                <div className="bw-slide__categories">
+                <div className="ryu-slide__categories">
                   {categoriesArr.map(category => (
-                    <div className="bw-slide__category" key={category}>
+                    <div className="ryu-slide__category" key={category}>
                       {category}
                     </div>
                   ))}
@@ -299,7 +299,7 @@ class DonorSlider extends Component {
         // scroll to top of each scroll container
         // after the card filters are updated
         ;[].forEach.call(
-          document.querySelectorAll('.bw-slide__scrollable'),
+          document.querySelectorAll('.ryu-slide__scrollable'),
           elm => {
             elm.scrollTo(0, 0)
           }

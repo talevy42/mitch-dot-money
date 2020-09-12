@@ -58,7 +58,7 @@ $image-height-desktop: $slide-height-desktop * 0.35;
   background: url(../../images/slider-next-hover.svg) no-repeat -9999px -9999px;
 }
 
-.bw-slide {
+.ryu-slide {
   background: white;
   box-shadow: 0 0 16px 4px rgba(black, 0.15);
   border-radius: 10px;
@@ -193,7 +193,7 @@ $image-height-desktop: $slide-height-desktop * 0.35;
   &.david-ryu {
     box-shadow: 0 0 16px 6px rgba(black, 0.35);
 
-    .bw-slide__name {
+    .ryu-slide__name {
       display: block;
       text-align: center;
     }
