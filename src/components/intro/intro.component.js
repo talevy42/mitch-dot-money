@@ -6,7 +6,7 @@ import './intro.scss'
 const Intro = () => (
   <div className="intro">
     <H2>
-      Buffy Wicks
+      David Ryu
       <br />
       Total Support
     </H2>
@@ -29,7 +29,7 @@ const Intro = () => (
     <p className="introduction">
       Learn about the wealthy donors and PACs who privatize schools, repeal
       protections for working people, deregulate the finance industry, and fund
-      Buffy Wicks.
+      David Ryu.
     </p>
   </div>
 )
