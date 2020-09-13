@@ -9,10 +9,10 @@ export default function Footer() {
         alt="DSA Los Angeles"
         className="dsala-logo"
       >
-        East Bay DSA
+        DSA - Los Angeles
       </a>
       <a href="http://www.dsa-la.org/" alt="DSA Los Angeles">
-        Created by East Bay DSA
+        Created by DSA - Los Angeles
       </a>
     </div>
   )
