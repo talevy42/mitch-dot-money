@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <div className="footer content panel dark">
       <a
-        href="http://www.eastbaydsa.org/"
-        alt="East Bay DSA"
-        className="ebdsa-logo"
+        href="http://www.dsa-la.org/"
+        alt="DSA Los Angeles"
+        className="dsala-logo"
       >
         East Bay DSA
       </a>
-      <a href="http://www.eastbaydsa.org/" alt="East Bay DSA">
+      <a href="http://www.dsa-la.org/" alt="DSA Los Angeles">
         Created by East Bay DSA
       </a>
     </div>

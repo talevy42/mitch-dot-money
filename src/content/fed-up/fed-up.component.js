@@ -16,7 +16,9 @@ export default function(props) {
             movement, we can fight back and win! Only together can we build a
             society that works for the many, not the few. Join us.
           </p>
-          <Button href="http://www.eastbaydsa.org/events">DO SOMETHING</Button>
+          <Button href="http://www.dsa-la.org/calendar/list">
+            DO SOMETHING
+          </Button>
         </div>
       </div>
     </div>
