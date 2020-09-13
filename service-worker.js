@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ryu-money/precache-manifest.b3a5e442167797ef9bd7d0e9fe2157de.js"
+  "/ryu-money/precache-manifest.344e91acbd5e42a8ddfc75e8dfa80267.js"
 );
 
 workbox.clientsClaim();

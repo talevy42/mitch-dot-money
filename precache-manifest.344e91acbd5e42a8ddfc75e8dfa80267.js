@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "df13bc4936f2424648bd",
+    "revision": "76335a76c34c917693b8",
     "url": "/ryu-money/static/css/main.8c66f860.chunk.css"
   },
   {
-    "revision": "df13bc4936f2424648bd",
-    "url": "/ryu-money/static/js/main.e9d68b5d.chunk.js"
+    "revision": "76335a76c34c917693b8",
+    "url": "/ryu-money/static/js/main.2455c8d1.chunk.js"
   },
   {
     "revision": "fe91146d94b32c9a38d6",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/ryu-money/static/media/ebdsa-logo.8c52cbcf.svg"
   },
   {
-    "revision": "88c545249fcc96f89daea9b0daae1d24",
+    "revision": "5b05ee2b19b264c9446797ed6ea1b4b5",
     "url": "/ryu-money/index.html"
   }
 ];
