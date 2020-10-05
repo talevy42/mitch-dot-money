@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.scss'
+import logo from '../../images/dsa-la-logo.png'
 
 export default function Footer() {
   return (
@@ -9,11 +10,12 @@ export default function Footer() {
         alt="DSA Los Angeles"
         className="dsala-logo"
       >
-        DSA - Los Angeles
-      </a>
+        <img className="dsala-logo" src={logo} alt="David Ryu dot money" />
+        DSA - Los Angeles{' '}
+      </a>{' '}
       <a href="http://www.dsa-la.org/" alt="DSA Los Angeles">
-        Created by DSA - Los Angeles
-      </a>
+        Created by DSA - Los Angeles{' '}
+      </a>{' '}
     </div>
   )
 }
