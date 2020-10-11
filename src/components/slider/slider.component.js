@@ -13,6 +13,7 @@ const kebabCase = str =>
     .toLowerCase()
     .replace(/\(.*\)/, '')
     .trim()
+    .replace(/ \/ /g, '-')
     .replace(/ /g, '-')
     .replace(/("|,)/g, '')
     .replace(/&/g, 'and')

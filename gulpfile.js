@@ -7,9 +7,7 @@ const ignoreColumns = ['Links', 'Photo Source', 'Location', 'Description hed']
 
 const convertToJson = async done => {
   const csv = fs.readFileSync('./csv/donors.csv').toString()
-  const json = parse(csv, { columns: true }).map(donor =>
-    _.omit(donor, ignoreColumns)
-  )
+  const json = parse(csv, { columns: true })
   fs.writeFileSync('./src/data/donors.json', JSON.stringify(json))
   done()
 }

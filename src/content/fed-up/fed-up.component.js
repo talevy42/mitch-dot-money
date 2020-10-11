@@ -9,12 +9,15 @@ export default function(props) {
       <div className="content panel light">
         <div className="inner">
           <p>
-            Corporations and billionaires are well organized and already waging
-            class war on working people. Right now, wealthy donors like those
-            featured on this site are setting the terms for what our society can
-            look like. If ordinary working people come together to join in a
-            movement, we can fight back and win! Only together can we build a
-            society that works for the many, not the few. Join us.
+            The battle for the future of Los Angeles is being fought in the
+            streets and in City Hall. Our opponents are the well-funded
+            corporations and billionaires who have completely bought and paid
+            for the City Council; as evidenced by the two council members
+            prosecuted for corruption in recent years. Donors like the ones
+            listed on this site are rigging the game in real time. To combat
+            this level of money in politics, we have no choice but to counter
+            with a multi-ethnic working class movement that is fighting for the
+            soul of Los Angeles and the country. Join us.
           </p>
           <Button href="http://www.dsa-la.org/calendar/list">
             DO SOMETHING
