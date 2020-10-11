@@ -52,6 +52,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage": "http://eudaimonstro.github.io/ryu-money"
+  ]
 }
