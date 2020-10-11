@@ -4,13 +4,13 @@
 @import '../../styles/typography';
 
 $slide-height: 530px;
-$image-height: $slide-height * 0.22;
+$image-height: $slide-height * 0.45;
 
 $slide-height-tablet: 480px;
-$image-height-tablet: $slide-height-tablet * 0.35;
+$image-height-tablet: $slide-height-tablet * 0.45;
 
 $slide-height-desktop: 625px;
-$image-height-desktop: $slide-height-desktop * 0.35;
+$image-height-desktop: $slide-height-desktop * 0.45;
 
 .slick-slider {
   margin-bottom: 50px;
