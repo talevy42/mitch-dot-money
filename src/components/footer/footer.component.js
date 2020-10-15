@@ -16,6 +16,10 @@ export default function Footer() {
       <a href="http://www.dsa-la.org/" alt="DSA Los Angeles">
         Created by DSA - Los Angeles{' '}
       </a>{' '}
+      <p>
+        Paid for by Democratic Socialists of America (DSA-LA), PO Box1038, New
+        York, NY 10272
+      </p>
     </div>
   )
 }
