@@ -15,7 +15,7 @@ const kebabCase = str =>
     .trim()
     .replace(/ \/ /g, '-')
     .replace(/ /g, '-')
-    .replace(/("|,)/g, '')
+    .replace(/("|,|\?)/g, '')
     .replace(/&/g, 'and')
 
 const getImage = donorName => {
