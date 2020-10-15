@@ -27,9 +27,7 @@ const Intro = () => (
       and independent expenditures
     </p>
     <p className="introduction">
-      Learn about the wealthy donors and PACs who privatize schools, repeal
-      protections for working people, deregulate the finance industry, and fund
-      David Ryu.
+      Learn about the wealthy donors and PACs who fund David Ryu.
     </p>
   </div>
 )
