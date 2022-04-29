@@ -20,9 +20,10 @@ const kebabCase = str =>
     .replace(/&/g, 'and')
 
 const getImage = donorName => {
+  return donorName
   try {
     const fileName = kebabCase(donorName)
-    return require(`../../images/donors/${fileName}.jpg`)
+    return require(`../../images/donors/${fileName}.png`)
   } catch (e) {
     return require(`../../images/donors/no-photo.jpg`)
   }
@@ -48,6 +49,7 @@ class Slide extends Component {
       name,
       directDonation,
       pacDonation,
+      title,
       description,
       categories,
       isVisible
@@ -58,7 +60,7 @@ class Slide extends Component {
         {imageSrc && (
           <div
             className="ryu-slide__image"
-            style={{ backgroundImage: `url('${imageSrc}')` }}
+            style={{ backgroundImage: `url('${getImage(imageSrc)}')` }}
           />
         )}
         {isVisible && (
@@ -76,6 +78,7 @@ class Slide extends Component {
               {({ measureRef }) => (
                 <div ref={measureRef} className="ryu-slide__name">
                   <h3>{name}</h3>
+                  <h5>{title}</h5>
                   <div className="ryu-slide__donations">
                     {directDonation && (
                       <div className="ryu-slide__donation">
@@ -375,13 +378,15 @@ class DonorSlider extends Component {
           {visibleDonors.map((donor, index) => (
             <Slide
               key={donor['Name']}
-              imageSrc={getImage(donor['Name'])}
+              imageSrc={donor['Photo Source']}
               name={donor['Name']}
-              directDonation={donor[`Donations directly to ${config.first}`]}
-              pacDonation={
-                donor[`Donations to ${config.first}-supporting PACs`]
+              directDonation={
+                donor[`Donations directly to ${config.target_first}`]
               }
-              title={donor['Description hed']}
+              pacDonation={
+                donor[`Donations to ${config.target_first}-supporting PACs`]
+              }
+              title={donor['Title']}
               description={donor['Blurb']}
               categories={donor['Category']}
               index={index}
