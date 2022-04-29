@@ -19,6 +19,7 @@ export default function(props) {
             with a multi-ethnic working class movement that is fighting for the
             soul of Los Angeles and the country. Join us.
           </p>
+          <Button href="http://www.dsa-la.org/join-us">GET ORGANIZED</Button>
           <Button href="http://www.dsa-la.org/calendar/list">
             DO SOMETHING
           </Button>

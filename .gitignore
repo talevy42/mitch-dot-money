@@ -23,6 +23,7 @@ yarn-error.log*
 
 *.css
 *.swp
+*.tar
 
 package-lock.json
 yarn.lock

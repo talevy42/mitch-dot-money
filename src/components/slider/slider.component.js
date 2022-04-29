@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown'
 import Select from 'react-select'
 import classNames from 'classnames'
 import donors from '../../data/donors.json'
+import config from '../../config'
 import './slider.scss'
 
 const kebabCase = str =>
@@ -376,8 +377,10 @@ class DonorSlider extends Component {
               key={donor['Name']}
               imageSrc={getImage(donor['Name'])}
               name={donor['Name']}
-              directDonation={donor['Donations directly to David']}
-              pacDonation={donor['Donations to David-supporting PACs']}
+              directDonation={donor[`Donations directly to ${config.first}`]}
+              pacDonation={
+                donor[`Donations to ${config.first}-supporting PACs`]
+              }
               title={donor['Description hed']}
               description={donor['Blurb']}
               categories={donor['Category']}

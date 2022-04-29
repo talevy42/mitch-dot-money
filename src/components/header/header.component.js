@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import SocialLinks from '../social-links/social-links.component'
 import logo from '../../images/ryu-logo.png'
+import config from '../../config'
 import './header.scss'
 
 class Header extends Component {
@@ -16,7 +17,7 @@ class Header extends Component {
             <img
               className="header__logo"
               src={logo}
-              alt="David Ryu dot money"
+              alt={`${config.target} dot money`}
             />
           </a>{' '}
         </div>{' '}

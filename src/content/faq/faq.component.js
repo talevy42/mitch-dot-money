@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Collapse } from 'react-collapse'
 import H2 from '../../components/h2/h2.component'
+import config from '../../config'
 import './faq.scss'
 
 class Section extends Component {
@@ -66,37 +67,28 @@ const FAQ = () => (
             future of the city, it has to be stopped.
           </p>{' '}
         </Section>{' '}
-        <Section title="Why are you picking on David Ryu?">
+        <Section title={`Why are you picking on ${config.target}?`}>
           <p>
-            It’s not personal. He just happens to be a perfect example of a Los
+            {`It’s not personal. He just happens to be a perfect example of a Los
             Angeles City Council member. He talks as progressively as he has to
             in order to get elected. He does so while taking tons of money from
             the real estate developers that are making this city uninhabitable
             to all but the very wealthy. Usually city council races are a real
             race to the bottom affair, but this time you actually have an
-            alternative! Nithya Raman is a corporate-free, democratic socialist
-            candidate running against David Ryu in CD4. An urban planner by
-            trade, her time co-chairing the Silver Lake Neighborhood Council’s
-            Homelessness Committee led her and others to start SELAH
-            Neighborhood Homeless Coalition in 2017. It’s now one of the most
-            active homeless services nonprofits in the city conducting weekly
-            outreach programs, operating access centers providing hot meals,
-            case management, showers and clothes. She also served as the first
-            executive director of Time’s Up Entertainment, the organization that
-            arose from the #MeToo activism. She worked to establish mentorship
-            programs for women in the industry and publish comprehensive Know
-            your Rights resources related to sexual misconduct in the workplace.
+            alternative! ${config.candidate} is a corporate-free, democratic socialist
+            candidate running against ${config.target} in ${config.district}.
+            ${config.candidate_bio}`}
           </p>
           <p>
-            Nithya is running in District 4 on a bold, forward thinking plan
+            {`${config.candidate_first} is running in ${config.district} on a bold, forward thinking plan
             including transforming public safety, rent forgiveness, public
-            broadband and protecting small business. Because she’s sworn off the
-            type of big money that David Ryu accepts, she doesn’t have the help
+            broadband and protecting small business. Because ${config.candidate_pronoun}’s sworn off the
+            type of big money that ${config.target} accepts, ${config.candidate_pronoun} doesn’t have the help
             of multinational polluters like Dart Container company; whose scions
             left the country rather than pay taxes. Or slumlords like Mike
             Nijjar of PAMA Management and their typhus infested trailer parks.
-            And she didn’t take thousands and thousands of dollars from the
-            police. So, she’s going to need your help!
+            And ${config.candidate_pronoun} didn’t take thousands and thousands of dollars from the
+            police. So, ${config.candidate_pronoun}’s going to need your help!`}
           </p>{' '}
         </Section>{' '}
         <Section title="Who made this site?">
@@ -123,7 +115,9 @@ const FAQ = () => (
             search.
           </p>{' '}
         </Section>{' '}
-        <Section title="Nithya sounds great. Can I vote for her? What district am I in?">
+        <Section
+          title={`${config.candidate_first} sounds great. Can I vote for ${config.candidate_pronoun}? What district am I in?`}
+        >
           <p>
             Don’t feel bad. It’s a big city. It happens to all of us. Find your
             district{' '}

@@ -2,6 +2,10 @@
 
 ## Quick Start
 
+Edit vars in src/config.js
+Change names and possibly the description in public/index.html
+Edit public/manifest.json
+
 ```
 npm install
 npm start
