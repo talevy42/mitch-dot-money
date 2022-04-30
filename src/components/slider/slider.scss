@@ -28,7 +28,7 @@ $image-height-desktop: $slide-height-desktop * 0.45;
     $padding: 12px;
     position: absolute;
     z-index: 100;
-    top: calc(50% - #{$size / 2});
+    top: calc(50% - #{calc($size/2)});
     right: $padding;
     background-color: transparent;
     background-image: url(../../images/slider-next.svg);

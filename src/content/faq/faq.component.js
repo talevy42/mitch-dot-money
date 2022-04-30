@@ -42,7 +42,7 @@ const FAQ = () => (
             Simply put, politicians are supposed to represent the masses and the
             masses aren’t rich. At every level of government we’ve seen the
             havoc that can be wreaked by unfettered corporate money in
-            campaigns. Here in Los Angeles, two sitting city councilmen have
+            campaigns. Here in Los Angeles, three sitting city councilmen have
             been indicted on corruption charges in recent years. Sadly, Mitch
             Englander and Jose Huizar are just the most extreme example of a
             glaring problem that plagues our city council. It is awash in
@@ -57,14 +57,13 @@ const FAQ = () => (
           <p>
             The wealthy have the cash to max out to candidates and contribute to
             PACs that work on the candidates behalf. Their wealth buys them the
-            time to sit on Neighborhood Councils (typically with other wealthy
-            people) and make a stink to their local politicians (who they have
+            time to make a stink to their local politicians (who they have
             donated tons of money to, remember) until they get their way. This
-            is how our unhoused brothers and sisters get criminalized. This is
-            how popular bike lanes and road diets get killed. This is how we
-            demolish housing to build football stadiums. This is how we are
-            STILL demolishing housing to build freeways. For the health and
-            future of the city, it has to be stopped.
+            is how our unhoused neighbors get criminalized. This is how popular
+            bike lanes get killed. This is how we demolish housing to build
+            football stadiums. This is how we are STILL demolishing housing to
+            build freeways. For the health and future of the city, it has to be
+            stopped.
           </p>{' '}
         </Section>{' '}
         <Section title={`Why are you picking on ${config.target}?`}>
@@ -82,13 +81,13 @@ const FAQ = () => (
           <p>
             {`${config.candidate_first} is running in ${config.district} on a bold, forward thinking plan
             including transforming public safety, rent forgiveness, public
-            broadband and protecting small business. Because ${config.candidate_pronoun}’s sworn off the
-            type of big money that ${config.target} accepts, ${config.candidate_pronoun} doesn’t have the help
+            broadband and protecting small business. Because ${config.candidate_pronoun2}’s sworn off the
+            type of big money that ${config.target} accepts, ${config.candidate_pronoun2} doesn’t have the help
             of multinational polluters like Dart Container company; whose scions
             left the country rather than pay taxes. Or slumlords like Mike
             Nijjar of PAMA Management and their typhus infested trailer parks.
-            And ${config.candidate_pronoun} didn’t take thousands and thousands of dollars from the
-            police. So, ${config.candidate_pronoun}’s going to need your help!`}
+            And ${config.candidate_pronoun2} didn’t take thousands and thousands of dollars from the
+            police. So, ${config.candidate_pronoun2}’s going to need your help!`}
           </p>{' '}
         </Section>{' '}
         <Section title="Who made this site?">
@@ -116,7 +115,7 @@ const FAQ = () => (
           </p>{' '}
         </Section>{' '}
         <Section
-          title={`${config.candidate_first} sounds great. Can I vote for ${config.candidate_pronoun}? What district am I in?`}
+          title={`${config.candidate_first} sounds great. Can I vote for ${config.candidate_pronoun}? I don't know what district I'm in!`}
         >
           <p>
             Don’t feel bad. It’s a big city. It happens to all of us. Find your

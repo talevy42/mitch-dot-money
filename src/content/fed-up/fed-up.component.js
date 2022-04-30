@@ -16,7 +16,7 @@ export default function(props) {
             prosecuted for corruption in recent years. Donors like the ones
             listed on this site are rigging the game in real time. To combat
             this level of money in politics, we have no choice but to counter
-            with a multi-ethnic working class movement that is fighting for the
+            with a multiracial working class movement that is fighting for the
             soul of Los Angeles and the country. Join us.
           </p>
           <Button href="http://www.dsa-la.org/join-us">GET ORGANIZED</Button>
