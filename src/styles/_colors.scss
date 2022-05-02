@@ -14,7 +14,7 @@
 // $color-100
 // $color-000 <- a very dark color
 
-$navy-100: #12092d;
+$primary-100: #cfc6ab;
 
 $blue-900: #dff5ff;
 $blue-700: lighten(#228ae6, 20%);
@@ -35,6 +35,6 @@ $gray-200: hsl(0, 0%, 20%);
 $color-text: $gray-300;
 $color-text-reverse: white;
 $color-light-background: white;
-$color-dark-background: $navy-100;
-$color-link: $blue-500;
-$color-link-hover: $blue-400;
+$color-dark-background: $primary-100;
+$color-link: #808000;
+$color-link-hover: #808000;

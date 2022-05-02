@@ -177,7 +177,7 @@ const _getDonorsInCategories = categories => {
   return donors.filter(donor => {
     if (!donor['Name']) return false
     if (categories.length === 0) return true
-    const cats = splitCategories(donor['Category'])
+    const cats = splitCategories(donor['Categories'])
     return cats.reduce((inResultSet, cat) => {
       return inResultSet || categories.includes(cat)
     }, false)
@@ -285,7 +285,7 @@ class DonorSlider extends Component {
 
   categories = donors
     .reduce((categories, donor) => {
-      const cats = splitCategories(donor['Category'])
+      const cats = splitCategories(donor['Categories'])
       cats.forEach(cat => {
         if (!categories.includes(cat)) categories.push(cat)
       })
@@ -388,7 +388,7 @@ class DonorSlider extends Component {
               }
               title={donor['Title']}
               description={donor['Blurb']}
-              categories={donor['Category']}
+              categories={donor['Categories']}
               index={index}
               currentSlide={currentSlide}
               isVisible={!isMobile || this.isVisible(index, currentSlide)}

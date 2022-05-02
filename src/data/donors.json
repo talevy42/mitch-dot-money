@@ -2,7 +2,7 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Englander Knabe and Allen",
-    "Category": "Lobbyists",
+    "Categories": "Lobbyists, Real Estate",
     "Location": "Los Angeles",
     "Donations directly to Mitch": "$14,200.00",
     "Donations to Mitch-supporting PACs": "",
@@ -15,10 +15,10 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Kilroy Realty L.P.",
-    "Category": "Real Estate",
+    "Categories": "Real Estate",
     "Location": "Los Angeles",
     "Donations directly to Mitch": "$9,450.00",
-    "Donations to Mitch-supporting PACs": "",
+    "Donations to Mitch-supporting PACs": "PAC $25,000",
     "Title": "Huge real estate developer bankrolling a regressive anti-tax ballot initiative",
     "Blurb": "Kilroy Realty is a real estate investment trust that owns, develops, acquires and manages luxury real estate assets in Los Angeles, and spends lavishly on conservative leaning politicians and causes. They are one of Mitch’s top donors, and rely on Council approval for their projects. They are also supporters of the “Taxpayer Protection and Government Accountability Act” ballot initiative, which may be on this November’s ballot, crafted by the California Business Roundtable. The deceptively named initiative will make it almost impossible to tax wealthy developers, a clear attempt to crush progressive efforts like the United to House LA ballot initiative which would tax real estate transactions over $5 million to fund affordable housing construction and enforce tenant protections.",
     "Photo Source": "https://i.imgur.com/roC29IL.png",
@@ -28,7 +28,7 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Matthew Klink",
-    "Category": "Lobbyist",
+    "Categories": "Lobbyists, Fossil Fuels",
     "Location": "Studio City",
     "Donations directly to Mitch": "$500",
     "Donations to Mitch-supporting PACs": "",
@@ -41,7 +41,7 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Jennifer LoGrande",
-    "Category": "Lobbyist",
+    "Categories": "Lobbyists, Real Estate",
     "Location": "Long Beach",
     "Donations directly to Mitch": "$800",
     "Donations to Mitch-supporting PACs": "",
@@ -54,7 +54,7 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Lena Wu",
-    "Category": "Lobbyist",
+    "Categories": "Lobbyists, Fossil Fuels",
     "Location": "Sacramento",
     "Donations directly to Mitch": "$800",
     "Donations to Mitch-supporting PACs": "",
@@ -66,8 +66,21 @@
   },
   {
     "Ready for Publication": "TRUE",
+    "Name": "Michael Cohanzad",
+    "Categories": "Real Estate, Slumlords",
+    "Location": "Los Angeles",
+    "Donations directly to Mitch": "$800",
+    "Donations to Mitch-supporting PACs": "",
+    "Title": "Landlord who throws tenants on the street to open Airbnbs",
+    "Blurb": "Real estate investor Michael Cohanzad doesn’t let tenant rights get in the way of profit. He illegally evicts them to make room for lucrative Airbnb rentals and luxury apartments. Over the last decade Cohanzad and his company Wiseman Residential has evicted 237 tenants from rent controlled apartments. Naturally, Cohanzad gives generously to Mitch because he knows that Mitch is on the side of landlords and luxury developers, not on the side of renters.",
+    "Photo Source": "https://i.imgur.com/i2MSdKX.png",
+    "Research Notes": "Real estate investor Michael Cohanzad doesn’t let tenant rights get in the way of profit. He illegally evicts them to make room for lucrative Airbnb rentals and luxury apartments. Over the last decade Cohanzad and his company Wiseman Residential has evicted 237 tenants from rent controlled apartments. Naturally, Cohanzad gives generously to Mitch because he knows that Mitch is on the side of landlords and luxury developers, not on the side of renters.",
+    "Links": "https://www.wcbi.com/landlord-accused-of-evicting-people-to-list-apartments-on-airbnb/"
+  },
+  {
+    "Ready for Publication": "TRUE",
     "Name": "Dart Container",
-    "Category": "Lobbyist",
+    "Categories": "Lobbyists",
     "Location": "Mason, Michigan",
     "Donations directly to Mitch": "$1,500.00",
     "Donations to Mitch-supporting PACs": "line 880 in list, 2 donations 2016+2017",
@@ -80,7 +93,7 @@
   {
     "Ready for Publication": "TRUE",
     "Name": "Fari Moshfegh ",
-    "Category": "Real Estate",
+    "Categories": "Real Estate, Slumlords",
     "Location": "Los Angeles",
     "Donations directly to Mitch": "$500.00",
     "Donations to Mitch-supporting PACs": "",
