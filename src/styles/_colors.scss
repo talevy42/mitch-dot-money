@@ -26,15 +26,16 @@ $gray-600: hsl(0, 0%, 60%);
 $gray-400: hsl(0, 0%, 40%);
 $gray-300: hsl(0, 0%, 30%);
 $gray-200: hsl(0, 0%, 20%);
+$dark-gray: #808000;
 
 // Color roles
 // -----------
 //
 // When colors have meaning in the system,
 // give the meaning a name
-$color-text: $gray-300;
+$color-text-title: #665858;
 $color-text-reverse: white;
 $color-light-background: white;
 $color-dark-background: $primary-100;
-$color-link: #808000;
-$color-link-hover: #808000;
+$color-link: $dark-gray;
+$color-link-hover: $dark-gray;

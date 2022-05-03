@@ -67,25 +67,14 @@ const FAQ = () => (
           </p>{' '}
         </Section>{' '}
         <Section title={`Why are you picking on ${config.target}?`}>
-          <p>
-            {`It’s not personal. He just happens to be a perfect example of a Los
-            Angeles City Council member. He talks as progressively as he has to
-            in order to get elected. He does so while taking tons of money from
-            the real estate developers that are making this city uninhabitable
-            to all but the very wealthy. Usually city council races are a real
-            race to the bottom affair, but this time you actually have an
-            alternative! ${config.candidate} is a corporate-free, democratic socialist
-            candidate running against ${config.target} in ${config.district}.
-            ${config.candidate_bio}`}
-          </p>
+          <p>{`${config.target_bio}\n\n ${config.candidate_bio}`}</p>
           <p>
             {`${config.candidate_first} is running in ${config.district} on a bold, forward thinking plan
             including transforming public safety, rent forgiveness, public
             broadband and protecting small business. Because ${config.candidate_pronoun2}’s sworn off the
             type of big money that ${config.target} accepts, ${config.candidate_pronoun2} doesn’t have the help
             of multinational polluters like Dart Container company; whose scions
-            left the country rather than pay taxes. Or slumlords like Mike
-            Nijjar of PAMA Management and their typhus infested trailer parks.
+            left the country rather than pay taxes. Or slumlords like Fari Moshfegh and Michael Cohanzad.
             And ${config.candidate_pronoun2} didn’t take thousands and thousands of dollars from the
             police. So, ${config.candidate_pronoun2}’s going to need your help!`}
           </p>{' '}

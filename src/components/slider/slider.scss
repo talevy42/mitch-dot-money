@@ -163,7 +163,6 @@ $image-height-desktop: $slide-height-desktop * 0.45;
 
   h3 {
     font-size: 20px;
-    color: $primary-100;
     font-weight: bold;
     margin: 0;
 
@@ -183,7 +182,6 @@ $image-height-desktop: $slide-height-desktop * 0.45;
   p {
     font-size: 14px;
     line-height: 1.5em;
-    color: $color-text;
 
     @include bp(xlarge) {
       font-size: 15px;

@@ -9,3 +9,7 @@ deploy:
 
 convert-donors-csv:
 	npx gulp convertToJson
+
+deploy-mitch:
+	npm run build
+	scp -r build/* root@137.184.11.62:/var/www/mitchofarrell.money/html/
