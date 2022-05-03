@@ -12,4 +12,8 @@ convert-donors-csv:
 
 deploy-mitch:
 	npm run build
-	scp -r build/* root@137.184.11.62:/var/www/mitchofarrell.money/html/
+	scp -r build/* ${REMOTE_LOC}:/var/www/mitchofarrell.money/html/
+
+deploy-text:
+	npm run build
+	rsync -rav -e ssh --include='*', --exclude='*.png' --exclude='*.svg' --exclude='*.jpg' build/* ${REMOTE_LOC}:/var/www/mitchofarrell.money/html/

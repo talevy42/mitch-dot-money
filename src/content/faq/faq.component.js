@@ -67,7 +67,7 @@ const FAQ = () => (
           </p>{' '}
         </Section>{' '}
         <Section title={`Why are you picking on ${config.target}?`}>
-          <p>{`${config.target_bio}\n\n ${config.candidate_bio}`}</p>
+          <p>{`${config.target_bio}`}</p>
           <p>
             {`${config.candidate_first} is running in ${config.district} on a bold, forward thinking plan
             including transforming public safety, rent forgiveness, public
@@ -78,6 +78,9 @@ const FAQ = () => (
             And ${config.candidate_pronoun2} didn’t take thousands and thousands of dollars from the
             police. So, ${config.candidate_pronoun2}’s going to need your help!`}
           </p>{' '}
+        </Section>{' '}
+        <Section title={`Where does ${config.candidate_first} get his money?`}>
+          <p>{`${config.candidate_bio}`}</p>
         </Section>{' '}
         <Section title="Who made this site?">
           <p>
