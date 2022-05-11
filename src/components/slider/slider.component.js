@@ -49,6 +49,7 @@ class Slide extends Component {
       name,
       directDonation,
       pacDonation,
+      shellDonation,
       title,
       description,
       categories,
@@ -93,6 +94,14 @@ class Slide extends Component {
                         PAC:{' '}
                         <span className="ryu-slide__donation-value">
                           {pacDonation}
+                        </span>
+                      </div>
+                    )}
+                    {shellDonation && (
+                      <div className="ryu-slide__donation">
+                        Shell Companies:{' '}
+                        <span className="ryu-slide__donation-value">
+                          {shellDonation}
                         </span>
                       </div>
                     )}
@@ -386,6 +395,7 @@ class DonorSlider extends Component {
               pacDonation={
                 donor[`Donations to ${config.target_first}-supporting PACs`]
               }
+              shellDonation={donor[`Donations from shell companies`]}
               title={donor['Title']}
               description={donor['Blurb']}
               categories={donor['Categories']}
